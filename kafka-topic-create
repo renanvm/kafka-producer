@@ -1,0 +1,5 @@
+ - docker exec -it ContainerId /bin/sh
+
+ - kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partition 1 --topic Topic_Name
+
+ - kafka-topics.sh --list --zookeeper zookeeper:2181
